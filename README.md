@@ -23,7 +23,6 @@ The verification produces one of three results:
 - **ASN Name Resolution** — Displays operator names alongside AS numbers
 - **Cron-based Caching** — ASPA snapshot cached in KV, refreshed every 30 minutes
 - **Minimal Web UI** — Clean, white-background interface designed for network engineers
-- **Security** — Input validation, CSP headers, rate limiting, HTML escaping
 
 ## Web UI
 
