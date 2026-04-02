@@ -1,0 +1,22 @@
+name = "rpki-aspa-checker"
+main = "src/index.ts"
+compatibility_date = "2024-12-30"
+# account_id = "your-account-id"
+# workers_dev = false
+# preview_urls = false
+
+[vars]
+RADAR_API_BASE = "https://api.cloudflare.com/client/v4/radar"
+# Set CLOUDFLARE_API_TOKEN via `wrangler secret put CLOUDFLARE_API_TOKEN`
+
+[[kv_namespaces]]
+binding = "ASPA_KV"
+id = "your-kv-namespace-id"
+
+# Uncomment and configure for custom domain deployment:
+# [[routes]]
+# pattern = "your-domain.example"
+# custom_domain = true
+
+[triggers]
+crons = ["*/30 * * * *"]
