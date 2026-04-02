@@ -146,7 +146,7 @@ curl 'https://aspa-checker.win/api/aspa-stats'
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/rpki-aspa-checker.git
+git clone https://github.com/takaakisuzuki/rpki-aspa-checker.git
 cd rpki-aspa-checker
 ```
 
